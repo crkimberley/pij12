@@ -2,6 +2,21 @@
  * @author crkimberley on 10/10/2016.
  */
 public class Person {
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
+
+    public Person() {}
+
+    public String getName() {
+        return name;
+    }
+
+    public String toString() {
+        return name;
+    }
 
     public String getInitials(String fullName) {
         String result = "";
